@@ -52,10 +52,12 @@ teaching-assistance-ml-project/
 ## 🛠️ Run Locally
 step1 :
 git clone https://github.com/uwaiszmuhammed07-hash/teaching-assistance-ml-project.git
+
 cd teaching-assistance-ml-project
 
 step 2:
 python3 -m venv venv
+
 source venv/bin/activate
 
 step3:
