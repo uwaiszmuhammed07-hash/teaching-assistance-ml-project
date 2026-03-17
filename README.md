@@ -36,15 +36,19 @@ https://teaching-assistance-ml-project.onrender.com
 ---
 
 ## 📁 Project Structure
+
+```
 teaching-assistance-ml-project/
-├── Data/tae.csv
+├── app.py                         ← Streamlit web app
+├── requirements.txt               ← Dependencies
+├── Data/
+│   └── tae.csv                    ← Dataset file
 ├── models/
-│ ├── ta_best_model.pkl
-│ └── ta_scaler.pkl
-├── PRCP-1026-TeachingAssistance.ipynb
-├── app.py
-├── requirements.txt
+│   ├── ta_best_model.pkl          ← Trained ML model
+│   └── ta_scaler.pkl              ← Feature scaler
+├── PRCP-1026-TeachingAssistance.ipynb  ← Model training notebook
 └── README.md
+```
 
 
 ---
