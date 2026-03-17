@@ -50,21 +50,21 @@ teaching-assistance-ml-project/
 ---
 
 ## 🛠️ Run Locally
-step1 :
+
+### Step 1 — Clone the Repository
+```bash
 git clone https://github.com/uwaiszmuhammed07-hash/teaching-assistance-ml-project.git
-
 cd teaching-assistance-ml-project
-
-step 2:
+Step 2 — Create Virtual Environment
 python3 -m venv venv
-
-source venv/bin/activate
-
-step3:
+source venv/bin/activate   # macOS/Linux
+venv\Scripts\activate      # Windows
+Step 3 — Install Requirements
 pip install -r requirements.txt
-
-step 4:
+Step 4 — Run the App
 streamlit run app.py
+Step 5 — Open in Browser
+http://localhost:8501
 
 
 ---
